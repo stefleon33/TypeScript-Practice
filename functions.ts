@@ -8,3 +8,10 @@ function add(a:number, b: number): number{
 function log(message: string): void {
     console.log(message);
 }
+
+//special type offered by TS is 'never'. Never means that this function will never complete because it will throw an error.
+// It will never contain a value.  
+function logAndThrow(errorMessage: string): never {
+    console.log(errorMessage);
+    throw new Error(errorMessage);
+}
