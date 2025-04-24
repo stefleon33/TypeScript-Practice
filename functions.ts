@@ -3,3 +3,8 @@
 function add(a:number, b: number): number{
     return a + b;
 }
+
+//void means that this function returns nothing. Typically don't need to set this. 
+function log(message: string): void {
+    console.log(message);
+}
