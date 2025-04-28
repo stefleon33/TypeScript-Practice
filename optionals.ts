@@ -11,3 +11,8 @@ type User = {
     age: number;
     role?: 'admin' | 'guest'
 };
+
+//Nullish coalescing (??)
+let input = '';
+//this boolean will check if the input is null or undefined. If it finds null or undefined, then the value on the right side (false) is returned.  
+const didProvideInput = input ?? false;
