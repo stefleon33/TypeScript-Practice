@@ -11,3 +11,8 @@ a = null;
 
 let b: undefined | string;
 //undefined means the variable can hold a string or the value undefined. 
+
+//Type Casting is also known as a type assertion. It converts some type to another type. This is done with the 'as' operator.
+const inputEl = document.getElementById('user-name') as HTMLInputElement | null;
+
+console.log(inputEl?.value);
