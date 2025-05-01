@@ -18,7 +18,9 @@ type InvestmentResult = {
     totalInterestEarned: number;
 };
 
-function calculateInvestment(data: InvestmentData): InvestmentResult[] {
+type CalculationResult = InvestmentResult[] | string;
+
+function calculateInvestment(data: InvestmentData): CalculationResult {
 
 } // => result[]
 
