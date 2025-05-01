@@ -4,6 +4,13 @@
 // expected return
 // duration
 
+type InvestmentData = {
+    initialAmount: number;
+    annualContribution: number;
+    expectedReturn: number;
+    duration: number;
+};
+
 function calculateInvestment(data: InvestmentData): InvestmentResult[] {
 
 } // => result[]
