@@ -54,6 +54,8 @@ function calculateInvestment(data: InvestmentData): CalculationResult {
             totalContributions
         });
     }
+
+    return annualResults;
 }
 
 function printResults(results) {
